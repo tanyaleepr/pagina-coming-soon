@@ -43,8 +43,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
       />
 
-      <!--mailchimp-->
-      <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/8bfcd8bb51f74bde55355e1a0/5e44011300e7d12639f7387e2.js");</script>
+      
     </head>
     <body>
         
@@ -64,14 +63,15 @@
                             
                             <!-- Sign Up Form -->
                             <p class="p-large website-p">Website under construction</p>
-                            <form id="signUpForm" data-toggle="validator" data-focus="false">
+                            <form name="myform" action="" method="GET" id="signUpForm" data-toggle="validator" data-focus="false">
                                 <div class="form-group">
                                     <input type="email" class="form-control-input" id="semail" required>
                                     <label class="label-control" for="semail">Email address</label>
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit" class="form-control-submit-button">SUBSCRIBE</button>
+                                    <input type="submit" class="form-control-submit-button" name="button" value="SUBSCRIBE" onClick="testResults(this.form)">
+                                    <!-- <button type="submit" class="form-control-submit-button">SUBSCRIBE</button> -->
                                 </div>
                                 <div class="form-message">
                                     <div id="smsgSubmit" class="h3 text-center hidden"></div>

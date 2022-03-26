@@ -1,0 +1,22 @@
+{
+  "name": "tanya-portfolio",
+  "version": "1.0.0",
+  "description": "Tanya's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanyaleepr/pagina-coming-soon.git"
+  },
+  "author": "Tanya Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanyaleepr/pagina-coming-soon/issues"
+  },
+  "homepage": "https://github.com/tanyaleepr/pagina-coming-soon#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
+}

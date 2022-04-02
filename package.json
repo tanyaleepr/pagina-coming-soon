@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tanyaleepr/pagina-coming-soon#readme",
   "dependencies": {
-    "animate.css": "^4.1.1"
+    "animate.css": "^4.1.1",
+    "nodemailer": "^6.7.3"
   }
 }

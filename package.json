@@ -2,7 +2,7 @@
   "name": "tanya-portfolio",
   "version": "1.0.0",
   "description": "Tanya's Portfolio",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +17,12 @@
   },
   "homepage": "https://github.com/tanyaleepr/pagina-coming-soon#readme",
   "dependencies": {
+    "animate": "^1.0.0",
     "animate.css": "^4.1.1",
-    "nodemailer": "^6.7.3"
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "nodemailer": "^4.7.0"
   }
 }

@@ -1,5 +1,5 @@
 /* Description: Custom JS file */
-
+const dotenv = require("dotenv");
 
 (function($) {
     "use strict"; 
@@ -76,3 +76,21 @@
 	});
 
 })(jQuery);
+
+function sendEmail() {
+    Email.send({
+        Host : "smtp.mail.privateemail.com",
+        Username : "info@tanyalee.dev",
+        Password : '',
+        To : 'info@tanyalee.dev',
+        From : document.getElementById("cemail").value,
+        Subject : "New Contact from Portfolio Site",
+        Body : "Name:" + document.getElementById("cname").value 
+                + "<br> Email: " + document.getElementById("cemail").value
+                + "<br> Message: " + document.getElementById("cmessage").value
+    }).then(
+    message => alert(Message Sent!)
+    );
+}
+
+//Failure sending mail. - Fix: Try a different SMTP server : https://elasticemail.com/account#/create-account?r=20b444a2-b3af-4eb8-bae7-911f6097521c

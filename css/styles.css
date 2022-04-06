@@ -533,6 +533,7 @@ input[type='checkbox'] {
 
 .header .h1-large {
 	margin-bottom: 1.375rem;
+	margin-top: -3rem;
 	color: #ffffff;
 }
 
@@ -566,6 +567,11 @@ input[type='checkbox'] {
 	opacity: 1;
 }
 
+.row-header {
+	width: 100%;
+	align-items: center;
+	text-align: center;
+}
 
 /* Wave Animation */
 @keyframes wave {
@@ -1032,6 +1038,7 @@ a:hover.back-to-top {
 /*************************/
 /*     Media Queries     */
 /*************************/	
+
 /* Min-width 768px */
 @media (min-width: 768px) {
 
@@ -1245,7 +1252,7 @@ a:hover.back-to-top {
 
 	/* General Styles */
 	.h1-large {
-		font-size: 3.75rem;
+		font-size: 4rem;
 		line-height: 4.625rem;
 	}
 	/* end of general styles */

@@ -1047,6 +1047,22 @@ a:hover.back-to-top {
 /*     Media Queries     */
 /*************************/	
 
+@media (min-width: 425px) {
+
+	.btn-solid-lg {
+		display: none;
+	}
+
+	.cartoon {
+		display: none;
+	}
+
+	.mediaforwelcome {
+		margin-top: 48%;
+
+	}
+	
+}
 /* Min-width 768px */
 @media (min-width: 768px) {
 

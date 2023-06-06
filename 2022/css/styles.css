@@ -39,6 +39,12 @@ html {
 	height: 100%;
 }
 
+/* 
+background-color: #0e1625;
+second color: #49299a;
+third color: #45edf2;
+blanco: #e8e8fc;
+*/
 body, p {
 	color: #4d5055; 
 	font: 400 1rem/1.625rem "Open Sans", sans-serif;

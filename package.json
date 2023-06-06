@@ -1,30 +1,56 @@
 {
-  "name": "tanya-portfolio",
-  "version": "1.0.0",
-  "description": "Tanya's Portfolio",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tanyaleepr/pagina-coming-soon.git"
-  },
-  "author": "Tanya Gonzalez",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tanyaleepr/pagina-coming-soon/issues"
-  },
-  "homepage": "https://github.com/tanyaleepr/pagina-coming-soon#readme",
-  "dependencies": {
-    "animate": "^1.0.0",
-    "animate.css": "^4.1.1",
-    "body-parser": "^1.20.0",
-    "bootstrap-icons": "^1.10.5",
-    "dotenv": "^16.0.0",
-    "express": "^4.17.3",
-    "express-handlebars": "^6.0.3",
-    "nodemailer": "^4.7.0",
-    "nodemon": "^2.0.16"
-  }
+	"name": "Tanya-Lee-Portfolio",
+	"version": "2.0",
+	"private": true,
+	"dependencies": {
+		"@emailjs/browser": "^3.11.0",
+		"@testing-library/jest-dom": "^5.16.5",
+		"@testing-library/react": "^13.4.0",
+		"@testing-library/user-event": "^14.4.3",
+		"dotenv": "^16.1.4",
+		"email-js": "^2.0.2",
+		"framer-motion": "4.1.17",
+		"postcss-cli": "^10.1.0",
+		"react": "^18.1.0",
+		"react-countup": "^6.1.1",
+		"react-dom": "^18.1.0",
+		"react-icons": "^4.3.1",
+		"react-router-dom": "^6.0.2",
+		"react-scripts": "4.0.3",
+		"react-scroll": "^1.8.9",
+		"styled-components": "^5.3.3",
+		"web-vitals": "^1.0.1"
+	},
+	"scripts": {
+		"start": "react-scripts --openssl-legacy-provider start",
+		"build": "yarn run react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"build:css": "postcss src/css/tailwind.css -o src/css/main.css"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@tailwindcss/forms": "^0.5.2",
+		"@testing-library/dom": "^8.20.0",
+		"autoprefixer": "^10.4.7",
+		"postcss": "^8.4.21",
+		"tailwindcss": "^3.0.24"
+	}
 }

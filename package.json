@@ -2,7 +2,7 @@
 	"name": "Tanya-Lee-Portfolio",
 	"version": "1.22.19",
 	"private": true,
-	"homepage": "“http://www.tanyalee.dev/",
+	"homepage": "“https://www.tanyalee.dev/",
 	"dependencies": {
 		"@emailjs/browser": "^3.11.0",
 		"@testing-library/jest-dom": "^5.16.5",

@@ -6,6 +6,7 @@ import { ProjectsProvider } from '../context/ProjectsContext';
 
 const Home = () => {
 	return (
+
 		<div className="container mx-auto">
 			<AppBanner></AppBanner>
 

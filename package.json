@@ -2,7 +2,7 @@
 	"name": "Tanya-Lee-Portfolio",
 	"version": "1.22.19",
 	"private": true,
-	"homepage": "“https://www.tanyalee.dev/",
+	"homepage": "“https://github.com/tanyaleepr/tanya-portfolio",
 	"dependencies": {
 		"@emailjs/browser": "^3.11.0",
 		"@testing-library/jest-dom": "^5.16.5",
@@ -27,7 +27,7 @@
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
 		"start": "react-scripts --openssl-legacy-provider start",
-		"build": "yarn run react-scripts --openssl-legacy-provider build",
+		"build": "yarn run react-scripts --openssl-legacy-provider build ",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"build:css": "postcss src/css/tailwind.css -o src/css/main.css"
